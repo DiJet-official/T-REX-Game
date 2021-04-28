@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "VT323";
+
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-section {
+  float: top;
+  width: 100%;
+  height: 20%;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.container-1 {
+  float: left;
+  width: 35%;
+}
+
+.container-2 {
+  float: right;
+  width: 65%;
+  padding-top: 1%;
+  padding-left: 100px
+}
+
+.profile-photo {
+  float: right;
+  width: 40%;
+  border-radius: 50%;
+  border: solid 5px #535353;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 160%;
+}
+
+.profile-id {
+   font-size: 160%;
+}
+
+.profile-description{
+  font-size: 130%;
+}
+
+.nft-section {
+  padding-left: 50%;
+  padding-right:50%;
+  padding-top: 10%;
+  float: bottom;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 310px 310px 310px; 
+  grid-gap: 10px;
+  padding: 10px;
+  align-content: center;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.nft-1-photo {
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+.pixelium {
+    
+      height: auto;
+
+      display: inline-block;
+      vertical-align: top;
+      text-transform: uppercase;
+      margin-left:10px;
+      cursor: pointer;
+      
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+
+ line-height: 0;
+      
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges; /* Firefox */
+      image-rendering: -o-crisp-edges; /* Opera */
+      image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+         
+      border-color: black;
+      border-style: solid;
+      border-width: 20px;
+  
+
+      -moz-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/profile/sq.png) 20 stretch;
+      -webkit-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/profile/sq.png) 20 stretch;
+      -o-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/profile/sq.png) 20 stretch;
+      border-image: url(file:///D:/T-REX%20Game/T-REX-Game/profile/sq.png) 20 stretch;
+
+       display: inline-block;
+      vertical-align: top;
+      position: relative;
+   
+      width: auto;
+      text-align: center;
+      margin: -20px -20px;
+      line-height: 20px;
+      padding: 10px 20px;
+      
+        background: white;
+       
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        
+
+
+    }
+ 
+ @font-face 
+            {
+ 
+        font-family: "VT323"; 
+
+        src: url("file:///D:/T-REX%20Game/T-REX-Game/VT323-Regular.ttf")
+            }
+    .container {
+      margin: 50px;
+      display: block;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .pixel {
+
+       
+      font-size: 25px;
+      height: auto;
+       display: inline-block;
+  vertical-align: middle;
+
+
+      position: relative;
+      left:0%;
+
+      display: inline-block;
+      vertical-align: top;
+      text-transform: uppercase;
+      
+      cursor: pointer;
+      
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+
+    }
+
+    .pixel:active, .pixel2:active {
+      top: 2px;
+    }
+
+    .pixel {
+
+
+    margin-top: 4px;
+
+      line-height: 0;
+      
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges; /* Firefox */
+      image-rendering: -o-crisp-edges; /* Opera */
+      image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+      
+      border-style: solid;
+      border-width: 20px;
+      -moz-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+      -webkit-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+      -o-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+      border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+    }
+
+    .pixel p {
+      display: inline-block;
+      vertical-align: top;
+     
+      width: auto;
+      text-align: center;
+      margin: -20px -20px;
+      line-height: 20px;
+      padding: 10px 20px;
+      
+        background: white;
+        background:
+            linear-gradient(135deg, transparent 10px, #535353 0) top left,
+            linear-gradient(225deg, transparent 10px, #535353 0) top right,
+            linear-gradient(315deg, transparent 10px, #535353 0) bottom right,
+            linear-gradient(45deg,  transparent 10px, #535353 0) bottom left;
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-image:
+            radial-gradient(circle at 0 0, rgba(83,83,83,0) 14px,  #535353 15px),
+            radial-gradient(circle at 100% 0, rgba(83,83,83,0) 14px,  #535353 15px),
+            radial-gradient(circle at 100% 100%, rgba(83,83,83,0) 14px, #535353 15px),
+            radial-gradient(circle at 0 100%, rgba(83,83,83,0) 14px,  #535353 15px);
+    }
+       
+   .text
+    {
+      color: white;
+     font-family:'VT323';
+     font-size: xx-large;
+   }
+
+    .text_Name
+    {
+      color: #535353;
+     font-family:'VT323';
+     font-size: 200%;
+     display: block;
+    margin-block-start: 5px;
+    margin-block-end: 20px;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+   }
+
+    .text_discription
+    {
+      color: #535353;
+     font-family:'VT323';
+     font-size: 100%;
+   }
+  
+.normal {
+
+    margin-right: 38px;
+
+}

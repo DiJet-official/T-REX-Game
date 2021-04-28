@@ -1,0 +1,105 @@
+ @font-face 
+            {
+ 
+        font-family: "VT323"; 
+
+        src: url("file:///D:/T-REX%20Game/T-REX-Game/VT323-Regular.ttf")/*way  to font*/
+            }
+    .container {
+      margin: 50px;
+      display: block;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .pixel {
+      font-size: 25px;
+      height: auto;
+      margin: 10px;
+
+      position: relative;
+      left:40%;
+
+      display: inline-block;
+      vertical-align: top;
+      text-transform: uppercase;
+      
+      cursor: pointer;
+      
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .pixel:active, .pixel2:active {
+      top: 2px;
+    }
+
+    .pixel {
+      line-height: 0;
+      
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges; /* Firefox */
+      image-rendering: -o-crisp-edges; /* Opera */
+      image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+      
+      border-style: solid;
+      border-width: 20px;
+      -moz-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch; /*way  to border*/
+      -webkit-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+      -o-border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+      border-image: url(file:///D:/T-REX%20Game/T-REX-Game/sREM8Yn.png) 20 stretch;
+    }
+
+    .pixel p {
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      width: auto;
+      text-align: center;
+      margin: -20px -20px;
+      line-height: 20px;
+      padding: 10px 20px;
+      
+        background: white;
+        background:
+            linear-gradient(135deg, transparent 10px, #535353 0) top left,
+            linear-gradient(225deg, transparent 10px, #535353 0) top right,
+            linear-gradient(315deg, transparent 10px, #535353 0) bottom right,
+            linear-gradient(45deg,  transparent 10px, #535353 0) bottom left;
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-image:
+            radial-gradient(circle at 0 0, rgba(83,83,83,0) 14px,  #535353 15px),
+            radial-gradient(circle at 100% 0, rgba(83,83,83,0) 14px,  #535353 15px),
+            radial-gradient(circle at 100% 100%, rgba(83,83,83,0) 14px, #535353 15px),
+            radial-gradient(circle at 0 100%, rgba(83,83,83,0) 14px,  #535353 15px);
+    }
+       
+   .text
+    {
+      color: white;
+     font-family:'VT323';
+     font-size: xx-large;
+   }
+
+  .text12
+    {
+      color: black;
+     font-family:'VT323';
+     font-size: xx-large;
+   }
+
+    .text123
+    {
+      color: black;
+     font-family:'VT323';
+     font-size: x-large;
+   }
